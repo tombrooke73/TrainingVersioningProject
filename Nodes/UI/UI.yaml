@@ -274,6 +274,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 190.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
   - Name: LED2
     Type: Led
     Children:
@@ -300,5 +310,5 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 370.0
+      Value: 80.0
 - File: Screens/Screens.yaml
